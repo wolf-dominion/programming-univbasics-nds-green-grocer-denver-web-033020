@@ -95,7 +95,18 @@ end
 
 def apply_clearance(cart)
 
-
+  count = 0
+  while count < cart.length
+    
+    if cart[count][:clearance] == true
+      
+      cart[count][:price] = cart[count][:price]
+      
+    end
+  end
+  
+  
+  
   cart
 end
 
