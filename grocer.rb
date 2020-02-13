@@ -103,9 +103,8 @@ def apply_clearance(cart)
       cart[count][:price] = cart[count][:price] - (0.2 * cart[count][:price])
       
     end
+    count += 1
   end
-  
-  
   
   cart
 end
