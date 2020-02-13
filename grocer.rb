@@ -115,9 +115,11 @@ def checkout(cart, coupons)
   finalCoupons = apply_coupons(finalCart, coupons)
   clearances = apply_clearance(finalCoupons)
 
+  float finalCost = 0
   count = 0
   while count < finalCoupons.length
     
+    finalCost = finalCoupons[count][:price] * finalCoupons[count][:count]
     
     count += 1
   end
