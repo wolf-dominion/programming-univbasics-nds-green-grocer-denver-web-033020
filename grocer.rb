@@ -117,6 +117,36 @@ def checkout(cart, coupons)
   # * apply_coupons
   # * apply_clearance
   #
-  # BEFORE it begins the work of calculating the total (or else you might have
-  # some irritated customers
+  # BEFORE it begins the work of calculating the total
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
 end
