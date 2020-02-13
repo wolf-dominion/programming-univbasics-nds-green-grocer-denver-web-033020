@@ -115,7 +115,7 @@ def checkout(cart, coupons)
   finalCoupons = apply_coupons(finalCart, coupons)
   clearances = apply_clearance(finalCoupons)
 
-  float finalCost = 0
+  finalCost = 0
   count = 0
   while count < finalCoupons.length
     
@@ -124,23 +124,6 @@ def checkout(cart, coupons)
     count += 1
   end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
+  Float finalCost
   
 end
