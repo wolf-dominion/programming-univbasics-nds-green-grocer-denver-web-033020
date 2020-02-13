@@ -124,6 +124,9 @@ def checkout(cart, coupons)
     count += 1
   end
 
-  Float finalCost
+  if finalCost > 100
+    finalCost = finalCost - (0.1 * finalCost)
+  end
   
+  Float finalCost
 end
